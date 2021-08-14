@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "18D70575-EBEC-4D8F-8645-766F6E3152EE"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6EF07A55-BD22-40BD-8346-AA43AC2F772D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "gersgarage/Controller/LoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "LoginViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "6EF07A55-BD22-40BD-8346-AA43AC2F772D - 30118f93cbb8d37e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "gersgarage.LoginViewController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; gersgarage.LoginViewController"
+                  moduleName = "gersgarage"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/taylanakbas/Desktop/koray/gersgarage/gersgarage/Controller/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "6EF07A55-BD22-40BD-8346-AA43AC2F772D - 45856931a6677f31"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "gersgarage.LoginViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; gersgarage.LoginViewController"
+                  moduleName = "gersgarage"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/taylanakbas/Desktop/koray/gersgarage/gersgarage/Controller/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10"
+                  endingLineNumber = "10"
+                  offsetFromSymbolStart = "386">
+               </Location>
+               <Location
+                  uuid = "6EF07A55-BD22-40BD-8346-AA43AC2F772D - a9b135acc4689e87"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "gersgarage.LoginViewController.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;gersgarage.LoginViewController&gt;"
+                  moduleName = "gersgarage"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/taylanakbas/Desktop/koray/gersgarage/gersgarage/Controller/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "6EF07A55-BD22-40BD-8346-AA43AC2F772D - f28481160c42ea3a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "gersgarage.LoginViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;gersgarage.LoginViewController&gt;"
+                  moduleName = "gersgarage"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/taylanakbas/Desktop/koray/gersgarage/gersgarage/Controller/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10"
+                  endingLineNumber = "10"
+                  offsetFromSymbolStart = "239">
+               </Location>
+               <Location
+                  uuid = "6EF07A55-BD22-40BD-8346-AA43AC2F772D - cbf1d893a0d60cb9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "gersgarage.LoginViewController.__deallocating_deinit"
+                  moduleName = "gersgarage"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/taylanakbas/Desktop/koray/gersgarage/gersgarage/Controller/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "48F186BC-980D-48AD-984E-D1712D6E1B09"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "gersgarage/AppDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

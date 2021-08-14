@@ -1,0 +1,849 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C198641AF0C3CFBC4235F10 /* Pods_gersgarage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A452BB0840B9831BABB7375F /* Pods_gersgarage.framework */; };
+		162299B078CB348E2FE895E2 /* Pods_gersgarageTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F00154E3D012BFF48F3F24 /* Pods_gersgarageTests.framework */; };
+		CD5CDF72AA945DF070B4175D /* Pods_gersgarage_gersgarageUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E60D595F0C649B87A442D7D6 /* Pods_gersgarage_gersgarageUITests.framework */; };
+		F5215BC726979B9C0000639E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5215BC626979B9C0000639E /* AppDelegate.swift */; };
+		F5215BC926979B9C0000639E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5215BC826979B9C0000639E /* SceneDelegate.swift */; };
+		F5215BCB26979B9C0000639E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5215BCA26979B9C0000639E /* ViewController.swift */; };
+		F5215BCE26979B9C0000639E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5215BCC26979B9C0000639E /* Main.storyboard */; };
+		F5215BD126979B9C0000639E /* gersgarage.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F5215BCF26979B9C0000639E /* gersgarage.xcdatamodeld */; };
+		F5215BD326979BA10000639E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5215BD226979BA10000639E /* Assets.xcassets */; };
+		F5215BD626979BA10000639E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5215BD426979BA10000639E /* LaunchScreen.storyboard */; };
+		F5215BE126979BA30000639E /* gersgarageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5215BE026979BA30000639E /* gersgarageTests.swift */; };
+		F5215BEC26979BA30000639E /* gersgarageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5215BEB26979BA30000639E /* gersgarageUITests.swift */; };
+		F5215C132697A7350000639E /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F5215C0F2697A7300000639E /* Montserrat-Bold.ttf */; };
+		F5215C142697A7370000639E /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F5215C122697A7300000639E /* Montserrat-Light.ttf */; };
+		F5215C152697A73A0000639E /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F5215C112697A7300000639E /* Montserrat-Medium.ttf */; };
+		F5215C162697A73D0000639E /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F5215C102697A7300000639E /* Montserrat-Regular.ttf */; };
+		F58B0F2126C7184A009091A6 /* AppointmentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58B0F2026C7184A009091A6 /* AppointmentTableViewCell.swift */; };
+		F58B0F2626C71C5E009091A6 /* AppointmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58B0F2526C71C5E009091A6 /* AppointmentViewController.swift */; };
+		F58B0F2826C72B9A009091A6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F58B0F2726C72B9A009091A6 /* GoogleService-Info.plist */; };
+		F5B16D5026C81547003A7B5B /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B16D4F26C81546003A7B5B /* ScheduleViewController.swift */; };
+		F5B16D5226C81767003A7B5B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B16D5126C81767003A7B5B /* LoginViewController.swift */; };
+		F5B16D5426C81808003A7B5B /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B16D5326C81808003A7B5B /* RegisterViewController.swift */; };
+		F5B16D5726C854F0003A7B5B /* Appointment.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B16D5626C854EF003A7B5B /* Appointment.swift */; };
+		F5B16D5926C866F6003A7B5B /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B16D5826C866F4003A7B5B /* ProfileViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5215BDD26979BA30000639E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5215BBB26979B9B0000639E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5215BC226979B9B0000639E;
+			remoteInfo = gersgarage;
+		};
+		F5215BE826979BA30000639E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5215BBB26979B9B0000639E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5215BC226979B9B0000639E;
+			remoteInfo = gersgarage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07F00154E3D012BFF48F3F24 /* Pods_gersgarageTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_gersgarageTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B54223E69EABD50C48E10A3 /* Pods-gersgarage-gersgarageUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gersgarage-gersgarageUITests.debug.xcconfig"; path = "Target Support Files/Pods-gersgarage-gersgarageUITests/Pods-gersgarage-gersgarageUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		67B1EC4455C75CF2E3060A49 /* Pods-gersgarage-gersgarageUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gersgarage-gersgarageUITests.release.xcconfig"; path = "Target Support Files/Pods-gersgarage-gersgarageUITests/Pods-gersgarage-gersgarageUITests.release.xcconfig"; sourceTree = "<group>"; };
+		74DCF46E44607F4F63B5C124 /* Pods-gersgarageTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gersgarageTests.debug.xcconfig"; path = "Target Support Files/Pods-gersgarageTests/Pods-gersgarageTests.debug.xcconfig"; sourceTree = "<group>"; };
+		94CA2F78F8050B2517BA911B /* Pods-gersgarage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gersgarage.release.xcconfig"; path = "Target Support Files/Pods-gersgarage/Pods-gersgarage.release.xcconfig"; sourceTree = "<group>"; };
+		9857FEF270C6FF81DADB30EB /* Pods-gersgarageTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gersgarageTests.release.xcconfig"; path = "Target Support Files/Pods-gersgarageTests/Pods-gersgarageTests.release.xcconfig"; sourceTree = "<group>"; };
+		A452BB0840B9831BABB7375F /* Pods_gersgarage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_gersgarage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D675020DFF7813C9B0FD5203 /* Pods-gersgarage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gersgarage.debug.xcconfig"; path = "Target Support Files/Pods-gersgarage/Pods-gersgarage.debug.xcconfig"; sourceTree = "<group>"; };
+		E60D595F0C649B87A442D7D6 /* Pods_gersgarage_gersgarageUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_gersgarage_gersgarageUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5215BC326979B9C0000639E /* gersgarage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gersgarage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5215BC626979B9C0000639E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F5215BC826979B9C0000639E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F5215BCA26979B9C0000639E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F5215BCD26979B9C0000639E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F5215BD026979B9C0000639E /* gersgarage.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = gersgarage.xcdatamodel; sourceTree = "<group>"; };
+		F5215BD226979BA10000639E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5215BD526979BA10000639E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F5215BD726979BA10000639E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5215BDC26979BA30000639E /* gersgarageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gersgarageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5215BE026979BA30000639E /* gersgarageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gersgarageTests.swift; sourceTree = "<group>"; };
+		F5215BE226979BA30000639E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5215BE726979BA30000639E /* gersgarageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gersgarageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5215BEB26979BA30000639E /* gersgarageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gersgarageUITests.swift; sourceTree = "<group>"; };
+		F5215BED26979BA30000639E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5215C0F2697A7300000639E /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		F5215C102697A7300000639E /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		F5215C112697A7300000639E /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		F5215C122697A7300000639E /* Montserrat-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.ttf"; sourceTree = "<group>"; };
+		F58B0F2026C7184A009091A6 /* AppointmentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentTableViewCell.swift; sourceTree = "<group>"; };
+		F58B0F2526C71C5E009091A6 /* AppointmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentViewController.swift; sourceTree = "<group>"; };
+		F58B0F2726C72B9A009091A6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F5B16D4F26C81546003A7B5B /* ScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
+		F5B16D5126C81767003A7B5B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F5B16D5326C81808003A7B5B /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		F5B16D5626C854EF003A7B5B /* Appointment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appointment.swift; sourceTree = "<group>"; };
+		F5B16D5826C866F4003A7B5B /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5215BC026979B9B0000639E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C198641AF0C3CFBC4235F10 /* Pods_gersgarage.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5215BD926979BA30000639E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				162299B078CB348E2FE895E2 /* Pods_gersgarageTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5215BE426979BA30000639E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD5CDF72AA945DF070B4175D /* Pods_gersgarage_gersgarageUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68F4A408227F0EC87DB35B48 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A452BB0840B9831BABB7375F /* Pods_gersgarage.framework */,
+				E60D595F0C649B87A442D7D6 /* Pods_gersgarage_gersgarageUITests.framework */,
+				07F00154E3D012BFF48F3F24 /* Pods_gersgarageTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD58687FBFC95D88635CF2D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D675020DFF7813C9B0FD5203 /* Pods-gersgarage.debug.xcconfig */,
+				94CA2F78F8050B2517BA911B /* Pods-gersgarage.release.xcconfig */,
+				5B54223E69EABD50C48E10A3 /* Pods-gersgarage-gersgarageUITests.debug.xcconfig */,
+				67B1EC4455C75CF2E3060A49 /* Pods-gersgarage-gersgarageUITests.release.xcconfig */,
+				74DCF46E44607F4F63B5C124 /* Pods-gersgarageTests.debug.xcconfig */,
+				9857FEF270C6FF81DADB30EB /* Pods-gersgarageTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F5215BBA26979B9B0000639E = {
+			isa = PBXGroup;
+			children = (
+				F5215BC526979B9C0000639E /* gersgarage */,
+				F5215BDF26979BA30000639E /* gersgarageTests */,
+				F5215BEA26979BA30000639E /* gersgarageUITests */,
+				F5215BC426979B9C0000639E /* Products */,
+				DD58687FBFC95D88635CF2D6 /* Pods */,
+				68F4A408227F0EC87DB35B48 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F5215BC426979B9C0000639E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5215BC326979B9C0000639E /* gersgarage.app */,
+				F5215BDC26979BA30000639E /* gersgarageTests.xctest */,
+				F5215BE726979BA30000639E /* gersgarageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5215BC526979B9C0000639E /* gersgarage */ = {
+			isa = PBXGroup;
+			children = (
+				F5B16D5526C854DC003A7B5B /* Model */,
+				F58B0F2226C71B67009091A6 /* Controller */,
+				F58B0F1F26C71804009091A6 /* View */,
+				F5215BC626979B9C0000639E /* AppDelegate.swift */,
+				F5215BC826979B9C0000639E /* SceneDelegate.swift */,
+				F5215BCA26979B9C0000639E /* ViewController.swift */,
+				F5215BCC26979B9C0000639E /* Main.storyboard */,
+				F5215BD226979BA10000639E /* Assets.xcassets */,
+				F5215BFB2697A3730000639E /* fonts */,
+				F5215BD426979BA10000639E /* LaunchScreen.storyboard */,
+				F58B0F2726C72B9A009091A6 /* GoogleService-Info.plist */,
+				F5215BD726979BA10000639E /* Info.plist */,
+				F5215BCF26979B9C0000639E /* gersgarage.xcdatamodeld */,
+			);
+			path = gersgarage;
+			sourceTree = "<group>";
+		};
+		F5215BDF26979BA30000639E /* gersgarageTests */ = {
+			isa = PBXGroup;
+			children = (
+				F5215BE026979BA30000639E /* gersgarageTests.swift */,
+				F5215BE226979BA30000639E /* Info.plist */,
+			);
+			path = gersgarageTests;
+			sourceTree = "<group>";
+		};
+		F5215BEA26979BA30000639E /* gersgarageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F5215BEB26979BA30000639E /* gersgarageUITests.swift */,
+				F5215BED26979BA30000639E /* Info.plist */,
+			);
+			path = gersgarageUITests;
+			sourceTree = "<group>";
+		};
+		F5215BFB2697A3730000639E /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F5215C0F2697A7300000639E /* Montserrat-Bold.ttf */,
+				F5215C122697A7300000639E /* Montserrat-Light.ttf */,
+				F5215C112697A7300000639E /* Montserrat-Medium.ttf */,
+				F5215C102697A7300000639E /* Montserrat-Regular.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		F58B0F1F26C71804009091A6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F58B0F2026C7184A009091A6 /* AppointmentTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F58B0F2226C71B67009091A6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F58B0F2526C71C5E009091A6 /* AppointmentViewController.swift */,
+				F5B16D4F26C81546003A7B5B /* ScheduleViewController.swift */,
+				F5B16D5126C81767003A7B5B /* LoginViewController.swift */,
+				F5B16D5326C81808003A7B5B /* RegisterViewController.swift */,
+				F5B16D5826C866F4003A7B5B /* ProfileViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F5B16D5526C854DC003A7B5B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F5B16D5626C854EF003A7B5B /* Appointment.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5215BC226979B9B0000639E /* gersgarage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5215BF026979BA30000639E /* Build configuration list for PBXNativeTarget "gersgarage" */;
+			buildPhases = (
+				B1A87B4BAA72FCF0E735B9FD /* [CP] Check Pods Manifest.lock */,
+				F5215BBF26979B9B0000639E /* Sources */,
+				F5215BC026979B9B0000639E /* Frameworks */,
+				F5215BC126979B9B0000639E /* Resources */,
+				5B2F6413D14D9E69083C7368 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gersgarage;
+			productName = gersgarage;
+			productReference = F5215BC326979B9C0000639E /* gersgarage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5215BDB26979BA30000639E /* gersgarageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5215BF326979BA30000639E /* Build configuration list for PBXNativeTarget "gersgarageTests" */;
+			buildPhases = (
+				5EF5A9D5725C088E9FCECBFC /* [CP] Check Pods Manifest.lock */,
+				F5215BD826979BA30000639E /* Sources */,
+				F5215BD926979BA30000639E /* Frameworks */,
+				F5215BDA26979BA30000639E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5215BDE26979BA30000639E /* PBXTargetDependency */,
+			);
+			name = gersgarageTests;
+			productName = gersgarageTests;
+			productReference = F5215BDC26979BA30000639E /* gersgarageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F5215BE626979BA30000639E /* gersgarageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5215BF626979BA30000639E /* Build configuration list for PBXNativeTarget "gersgarageUITests" */;
+			buildPhases = (
+				80ED7566536797F52575038C /* [CP] Check Pods Manifest.lock */,
+				F5215BE326979BA30000639E /* Sources */,
+				F5215BE426979BA30000639E /* Frameworks */,
+				F5215BE526979BA30000639E /* Resources */,
+				75EE7DF72CA8091F5492101B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5215BE926979BA30000639E /* PBXTargetDependency */,
+			);
+			name = gersgarageUITests;
+			productName = gersgarageUITests;
+			productReference = F5215BE726979BA30000639E /* gersgarageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5215BBB26979B9B0000639E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					F5215BC226979B9B0000639E = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					F5215BDB26979BA30000639E = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = F5215BC226979B9B0000639E;
+					};
+					F5215BE626979BA30000639E = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = F5215BC226979B9B0000639E;
+					};
+				};
+			};
+			buildConfigurationList = F5215BBE26979B9B0000639E /* Build configuration list for PBXProject "gersgarage" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5215BBA26979B9B0000639E;
+			productRefGroup = F5215BC426979B9C0000639E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5215BC226979B9B0000639E /* gersgarage */,
+				F5215BDB26979BA30000639E /* gersgarageTests */,
+				F5215BE626979BA30000639E /* gersgarageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5215BC126979B9B0000639E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5215C142697A7370000639E /* Montserrat-Light.ttf in Resources */,
+				F58B0F2826C72B9A009091A6 /* GoogleService-Info.plist in Resources */,
+				F5215C132697A7350000639E /* Montserrat-Bold.ttf in Resources */,
+				F5215C162697A73D0000639E /* Montserrat-Regular.ttf in Resources */,
+				F5215BD626979BA10000639E /* LaunchScreen.storyboard in Resources */,
+				F5215BD326979BA10000639E /* Assets.xcassets in Resources */,
+				F5215C152697A73A0000639E /* Montserrat-Medium.ttf in Resources */,
+				F5215BCE26979B9C0000639E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5215BDA26979BA30000639E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5215BE526979BA30000639E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5B2F6413D14D9E69083C7368 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-gersgarage/Pods-gersgarage-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-gersgarage/Pods-gersgarage-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-gersgarage/Pods-gersgarage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5EF5A9D5725C088E9FCECBFC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-gersgarageTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75EE7DF72CA8091F5492101B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-gersgarage-gersgarageUITests/Pods-gersgarage-gersgarageUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-gersgarage-gersgarageUITests/Pods-gersgarage-gersgarageUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-gersgarage-gersgarageUITests/Pods-gersgarage-gersgarageUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80ED7566536797F52575038C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-gersgarage-gersgarageUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1A87B4BAA72FCF0E735B9FD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-gersgarage-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5215BBF26979B9B0000639E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5B16D5426C81808003A7B5B /* RegisterViewController.swift in Sources */,
+				F58B0F2626C71C5E009091A6 /* AppointmentViewController.swift in Sources */,
+				F5215BCB26979B9C0000639E /* ViewController.swift in Sources */,
+				F5215BC726979B9C0000639E /* AppDelegate.swift in Sources */,
+				F58B0F2126C7184A009091A6 /* AppointmentTableViewCell.swift in Sources */,
+				F5B16D5226C81767003A7B5B /* LoginViewController.swift in Sources */,
+				F5B16D5926C866F6003A7B5B /* ProfileViewController.swift in Sources */,
+				F5215BC926979B9C0000639E /* SceneDelegate.swift in Sources */,
+				F5B16D5026C81547003A7B5B /* ScheduleViewController.swift in Sources */,
+				F5215BD126979B9C0000639E /* gersgarage.xcdatamodeld in Sources */,
+				F5B16D5726C854F0003A7B5B /* Appointment.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5215BD826979BA30000639E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5215BE126979BA30000639E /* gersgarageTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5215BE326979BA30000639E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5215BEC26979BA30000639E /* gersgarageUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5215BDE26979BA30000639E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5215BC226979B9B0000639E /* gersgarage */;
+			targetProxy = F5215BDD26979BA30000639E /* PBXContainerItemProxy */;
+		};
+		F5215BE926979BA30000639E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5215BC226979B9B0000639E /* gersgarage */;
+			targetProxy = F5215BE826979BA30000639E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F5215BCC26979B9C0000639E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5215BCD26979B9C0000639E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F5215BD426979BA10000639E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5215BD526979BA10000639E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5215BEE26979BA30000639E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F5215BEF26979BA30000639E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5215BF126979BA30000639E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D675020DFF7813C9B0FD5203 /* Pods-gersgarage.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UY69P5Z799;
+				INFOPLIST_FILE = gersgarage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.taylanakbas.gersgarage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F5215BF226979BA30000639E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94CA2F78F8050B2517BA911B /* Pods-gersgarage.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UY69P5Z799;
+				INFOPLIST_FILE = gersgarage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.taylanakbas.gersgarage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F5215BF426979BA30000639E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74DCF46E44607F4F63B5C124 /* Pods-gersgarageTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UY69P5Z799;
+				INFOPLIST_FILE = gersgarageTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.taylanakbas.gersgarageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gersgarage.app/gersgarage";
+			};
+			name = Debug;
+		};
+		F5215BF526979BA30000639E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9857FEF270C6FF81DADB30EB /* Pods-gersgarageTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UY69P5Z799;
+				INFOPLIST_FILE = gersgarageTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.taylanakbas.gersgarageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gersgarage.app/gersgarage";
+			};
+			name = Release;
+		};
+		F5215BF726979BA30000639E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B54223E69EABD50C48E10A3 /* Pods-gersgarage-gersgarageUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UY69P5Z799;
+				INFOPLIST_FILE = gersgarageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.taylanakbas.gersgarageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = gersgarage;
+			};
+			name = Debug;
+		};
+		F5215BF826979BA30000639E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67B1EC4455C75CF2E3060A49 /* Pods-gersgarage-gersgarageUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UY69P5Z799;
+				INFOPLIST_FILE = gersgarageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.taylanakbas.gersgarageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = gersgarage;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5215BBE26979B9B0000639E /* Build configuration list for PBXProject "gersgarage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5215BEE26979BA30000639E /* Debug */,
+				F5215BEF26979BA30000639E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5215BF026979BA30000639E /* Build configuration list for PBXNativeTarget "gersgarage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5215BF126979BA30000639E /* Debug */,
+				F5215BF226979BA30000639E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5215BF326979BA30000639E /* Build configuration list for PBXNativeTarget "gersgarageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5215BF426979BA30000639E /* Debug */,
+				F5215BF526979BA30000639E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5215BF626979BA30000639E /* Build configuration list for PBXNativeTarget "gersgarageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5215BF726979BA30000639E /* Debug */,
+				F5215BF826979BA30000639E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F5215BCF26979B9C0000639E /* gersgarage.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F5215BD026979B9C0000639E /* gersgarage.xcdatamodel */,
+			);
+			currentVersion = F5215BD026979B9C0000639E /* gersgarage.xcdatamodel */;
+			path = gersgarage.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F5215BBB26979B9B0000639E /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_gersgarage {
+  umbrella header "Pods-gersgarage-umbrella.h"
+
+  export *
+  module * { export * }
+}

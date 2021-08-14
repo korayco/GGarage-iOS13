@@ -1,0 +1,6 @@
+framework module Pods_gersgarage_gersgarageUITests {
+  umbrella header "Pods-gersgarage-gersgarageUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
